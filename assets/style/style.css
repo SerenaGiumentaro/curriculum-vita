@@ -11,7 +11,7 @@
 }
 
 /* flex elements */
-body, header,.pic,.container-contact,.ico,.contact-inf,main,.skills{
+body, header,.pic,.container-contact,.ico,.contact-inf,main,.skills,.projects,footer{
     display: flex;
     justify-content: center;
     font-family: var(--primary-font);
@@ -140,6 +140,17 @@ main div{
 table{
     width: 100%;
 }
+.projects{
+    flex-direction: column;
+}
+footer{
+    background: var(--smoke-black);
+    width: 100%;
+    height: 10vh;
+    color: #fff;
+    align-items: center;
+}
+
 
 
 
